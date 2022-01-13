@@ -21,10 +21,8 @@ import {
   ReelScreen,
   ShopScreen,
   ProfileScreen,
+  PostsScreen,
 } from "../screens/index";
-import PostsScreen from "../screens/profile/PostsScreen";
-
-const Tab = createMaterialTopTabNavigator();
 
 const ProfileStack = createNativeStackNavigator();
 
@@ -44,6 +42,8 @@ function ProfileStackScreen() {
     </ProfileStack.Navigator>
   );
 }
+
+const Tab = createMaterialTopTabNavigator();
 
 export default function Tabs() {
   return (
